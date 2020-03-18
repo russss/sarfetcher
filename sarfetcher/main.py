@@ -194,4 +194,4 @@ def fetch(target, dest_path):
         if path.isfile(path.join(dest_path, f))
     )
     for filename in existing - to_fetch:
-        os.remove(path.join(dest_path, filename))
+        os.remove(path.join(dest_path, filename + ".tif"))
