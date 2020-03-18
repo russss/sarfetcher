@@ -25,7 +25,7 @@ password = scihub_password
 
 Run `sarfetcher import -d 30`. This will initialise the database and import the last 30 days of image metadata from the Sentinel hub into the PostGIS database.
 
-Now you need to insert one row into the `search_area` table, containing a multipolygon representing the area you want to download. (An example for the North Sea/English Channel is below.)
+Now you need to insert one row into the `search_area` table, containing a multipolygon representing the area you want to download. An example for the North Sea/Englis Channel is below, but if you need to specify a custom area, it's probably easiest to add the `search_area` table to QGIS and create the polygon.
 
 Once this is complete, you can fetch the images which cover your search area:
 
