@@ -5,7 +5,7 @@
 * A local postgres database with PostGIS installed.
 * A user account on the [Copernicus Open Access Hub](https://scihub.copernicus.eu/).
 
-## Installation
+## Installation
 
 Git clone this repo and run `pip3 install .`. It's best to install this using the system python rather than a virtualenv so that the system GDAL library is used.
 
