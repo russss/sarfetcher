@@ -23,7 +23,7 @@ password = scihub_password
 
 ## How to use
 
-Run `sarfetcher import -d 30`. This will import the last 30 days of image metadata from the Sentinel hub into the PostGIS database.
+Run `sarfetcher import -d 30`. This will initialise the database and import the last 30 days of image metadata from the Sentinel hub into the PostGIS database.
 
 Now you need to insert one row into the `search_area` table, containing a multipolygon representing the area you want to download. (An example for the North Sea/English Channel is below.)
 
