@@ -4,6 +4,7 @@ import shutil
 import tempfile
 import os
 import configparser
+from osgeo import gdal
 from os import path
 from datetime import datetime, timedelta
 from sqlalchemy import select, desc
@@ -13,6 +14,8 @@ from zipfile import ZipFile
 
 from .db import images, get_db, search_area
 from .convert import convert
+
+gdal.UseExceptions()
 
 
 def load_config():
