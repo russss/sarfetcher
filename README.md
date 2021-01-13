@@ -1,6 +1,6 @@
 # SARFetcher
 
-Fetches Sentinel-1 synthetic aperture radar imagery for a particular area.
+Fetches Sentinel-1 synthetic aperture radar imagery for a particular area, and apply some processing to combine bands into an RGB image.
 
 ## Requirements
 
