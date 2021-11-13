@@ -4,7 +4,7 @@ from geoalchemy2 import Geometry
 
 
 def get_db(url):
-    engine = create_engine("postgresql://russ@localhost/sentinel1")
+    engine = create_engine(url)
     metadata.create_all(engine)
     return engine.connect()
 
